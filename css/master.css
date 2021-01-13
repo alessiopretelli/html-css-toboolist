@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #d9caca;
+}
+
+header{
+  height: 100px;
+  background-color: white;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+}
+
+main{
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 600;
+}
+
+ul ul li:last-child{
+  margin-bottom: 30px;
+}
+
+li li{
+  list-style: none;
+  margin: 5px 0;
+}
+
+li{
+  list-style: none;
+}
+
+h3{
+  font-size: 25px;
+}
+
+h3::before{
+  content: "\25BE";
+}
+
+.tasks{
+  padding: 30px 10%;
+  line-height: 50px;
+}
+
+.top{
+  padding: 20px 10%;
+  border-bottom: 2px solid lightgrey;
+}
+
+.b{
+  padding: 7px 12px;
+  border-radius: 10%;
+  border: 2px solid lightgrey;
+}
+
+.b1{
+  color: white;
+  background-color: #3faaff;
+}
+
+.b2{
+  color: lightgrey;
+  background-color: white;
+}
+
+.checked::before{
+  display: inline;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid green;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.unchecked::before{
+  display: inline;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid red;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.check::before{
+  content: "\2713";
+}
+
+.uncheck::before{
+  content: "\2717";
+}
+
+.button{
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 10px;
+}
+
+.ed{
+  background-color: #3faaff;
+}
+
+.q1{
+  background-color: purple;
+}
+
+.re{
+  background-color: green;
+}
+
+.mo{
+  background-color: orange;
+}
+
+.we{
+  background-color: pink;
+}
+
+.sa{
+  background-color: lightgreen;
+}
+
+#logo{
+  vertical-align: middle;
+  height: 100%;
+  margin-left: 30px;
+}
+
+#logot{
+  vertical-align: middle;
+  font-size: 35px;
+  font-weight: 1000;
+}
