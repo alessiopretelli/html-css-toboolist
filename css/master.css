@@ -16,13 +16,22 @@ header{
   padding: 10px 20px;
 }
 
-main{
+main, footer{
   width: 60%;
   height: 60%;
   margin: 0 auto;
   border-radius: 10px;
   background-color: white;
   font-weight: 600;
+}
+
+main{
+  border-bottom: 2px solid lightgrey;
+}
+
+footer{
+  text-align: center;
+  padding: 10px 0;
 }
 
 ul ul li:last-child{
